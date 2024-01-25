@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(i phone 15)">searchTest(i phone 15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(Mobile)">searchTest(Mobile)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(oppo)">searchTest(oppo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(motor)">searchTest(motor)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(washing machine)">searchTest(washing machine)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(boiler)">searchTest(boiler)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(refrigerator)">searchTest(refrigerator)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(pen)">searchTest(pen)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(iron)">searchTest(iron)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(cup)">searchTest(cup)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(tumbler)">searchTest(tumbler)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(glass)">searchTest(glass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(television)">searchTest(television)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(table)">searchTest(table)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(i phone)">searchTest(i phone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(samsung s24)">searchTest(samsung s24)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(pencil)">searchTest(pencil)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(vivo)">searchTest(vivo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestScriptsPractise.FlipkartSearch" class="method navigator-link" hash-for-method="searchTest(chair)">searchTest(chair)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestScriptsPractise.FlipkartSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(i phone 15)">
+                  </a> <!-- searchTest(i phone 15) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(i phone 15)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Mobile)">
+                  </a> <!-- searchTest(Mobile) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Mobile)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(oppo)">
+                  </a> <!-- searchTest(oppo) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(oppo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(motor)">
+                  </a> <!-- searchTest(motor) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(motor)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(washing machine)">
+                  </a> <!-- searchTest(washing machine) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(washing machine)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(boiler)">
+                  </a> <!-- searchTest(boiler) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(boiler)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(refrigerator)">
+                  </a> <!-- searchTest(refrigerator) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(refrigerator)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(pen)">
+                  </a> <!-- searchTest(pen) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(pen)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(iron)">
+                  </a> <!-- searchTest(iron) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(iron)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(cup)">
+                  </a> <!-- searchTest(cup) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(cup)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(tumbler)">
+                  </a> <!-- searchTest(tumbler) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(tumbler)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(glass)">
+                  </a> <!-- searchTest(glass) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(glass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(television)">
+                  </a> <!-- searchTest(television) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(television)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(table)">
+                  </a> <!-- searchTest(table) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(table)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(i phone)">
+                  </a> <!-- searchTest(i phone) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(i phone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(samsung s24)">
+                  </a> <!-- searchTest(samsung s24) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(samsung s24)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(pencil)">
+                  </a> <!-- searchTest(pencil) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(pencil)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(vivo)">
+                  </a> <!-- searchTest(vivo) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(vivo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(chair)">
+                  </a> <!-- searchTest(chair) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(chair)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/qc/yvwx7y4x2bdcl8qqq0jttdgw0000gn/T/testng-eclipse--149550099/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TestScriptsPractise.FlipkartSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchTest')
+data.setCell(0, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(0, 3, 14979);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchTest')
+data.setCell(1, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(1, 3, 14399);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchTest')
+data.setCell(2, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(2, 3, 13707);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchTest')
+data.setCell(3, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(3, 3, 13556);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchTest')
+data.setCell(4, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(4, 3, 13477);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchTest')
+data.setCell(5, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(5, 3, 13454);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchTest')
+data.setCell(6, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(6, 3, 13242);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchTest')
+data.setCell(7, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(7, 3, 13196);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchTest')
+data.setCell(8, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(8, 3, 13047);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchTest')
+data.setCell(9, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(9, 3, 13045);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'searchTest')
+data.setCell(10, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(10, 3, 12920);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'searchTest')
+data.setCell(11, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(11, 3, 12876);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'searchTest')
+data.setCell(12, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(12, 3, 12848);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'searchTest')
+data.setCell(13, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(13, 3, 12738);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'searchTest')
+data.setCell(14, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(14, 3, 12661);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'searchTest')
+data.setCell(15, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(15, 3, 12570);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'searchTest')
+data.setCell(16, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(16, 3, 12191);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'searchTest')
+data.setCell(17, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(17, 3, 12046);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'searchTest')
+data.setCell(18, 2, 'com.TestScriptsPractise.FlipkartSearch')
+data.setCell(18, 3, 11905);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestScriptsPractise.FlipkartSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Mobile)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(television)</span>
+                <span class="method-start">14985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(refrigerator)</span>
+                <span class="method-start">28032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(pen)</span>
+                <span class="method-start">40225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(pencil)</span>
+                <span class="method-start">52965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(cup)</span>
+                <span class="method-start">65014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(table)</span>
+                <span class="method-start">77936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(chair)</span>
+                <span class="method-start">92337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(washing machine)</span>
+                <span class="method-start">105188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(boiler)</span>
+                <span class="method-start">118066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(tumbler)</span>
+                <span class="method-start">131309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(glass)</span>
+                <span class="method-start">143216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(motor)</span>
+                <span class="method-start">156265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(iron)</span>
+                <span class="method-start">169744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(i phone)</span>
+                <span class="method-start">183452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(samsung s24)</span>
+                <span class="method-start">197011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(i phone 15)</span>
+                <span class="method-start">209582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(oppo)</span>
+                <span class="method-start">222245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(vivo)</span>
+                <span class="method-start">235443 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
